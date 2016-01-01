@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1574FA1C363BEE00D644AD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1574F91C363BEE00D644AD /* SettingsViewController.swift */; };
 		4A2F29161C34CA58000D83EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2F29151C34CA58000D83EB /* AppDelegate.swift */; };
 		4A2F29181C34CA58000D83EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2F29171C34CA58000D83EB /* ViewController.swift */; };
 		4A2F291B1C34CA58000D83EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2F29191C34CA58000D83EB /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A1574F91C363BEE00D644AD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 		4A2F29121C34CA58000D83EB /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2F29151C34CA58000D83EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A2F29171C34CA58000D83EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		4A2F29141C34CA58000D83EB /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				4A1574F91C363BEE00D644AD /* SettingsViewController.swift */,
 				4A2F29151C34CA58000D83EB /* AppDelegate.swift */,
 				4A2F29171C34CA58000D83EB /* ViewController.swift */,
 				4A2F29191C34CA58000D83EB /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				4A2F29181C34CA58000D83EB /* ViewController.swift in Sources */,
 				4A2F29161C34CA58000D83EB /* AppDelegate.swift in Sources */,
+				4A1574FA1C363BEE00D644AD /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eidehua.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eidehua.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
